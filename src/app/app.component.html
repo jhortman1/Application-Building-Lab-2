@@ -1,64 +1,159 @@
-<div class="container">
+<div class="container border">
   <div class="row">
-    <div class="col-12 border p-3">
-      <div class="contain">header-component works!</div>
+    <div class="col-12 p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 p-3">
+            <h2>Welcome, Claire</h2>
+          </div>
+          <div class="col-3 p-3 float-end">
+            <div class="float-end">
+              <button class="btn btn-primary">Logout</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="container border p-3">
       <div class="container">
         <div class="row">
-          <div class="col-12 border p-3">
-            <div class="contain">conversion-control-component works!</div>
+          <div class="col-12 p-3">
+            <div class="dropdown">
+              <button
+                class="btn btn-primary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Conversation
+              </button>
+              <div class="col-3 float-end">
+                <div class="float-end">
+                  <button class="btn btn-primary">New Message</button>
+                </div>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ludovic, Jessica</a></li>
+                <li><a class="dropdown-item" href="#">James</a></li>
+                <li><a class="dropdown-item" href="#">Aurelie, James, Jessica</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 border p-3">
-            <div class="contain">conversation-history-component works!
-              <div class="contain p-3">List of users in this thread</div>
               <div class="container">
                 <div class="row">
-                  <div class="col-12 border p-3">
-                    <div class="contain">conversation-thread-component works!</div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-10 border p-3">
-                          <div class="contain">sender-message-component works!</div>
-                        </div>
-                        <div class="col-10 border p-3">
-                          <div class="contain">sender-message-component works!</div>
-                        </div>
-                        <div class="col-4 border p-3">
-                          <div class="contain"></div>
-                        </div>
-                        <div class="col-8 border p-3">
-                          <div class="contain">user-message-component works!</div>
+                  <div class="col-12 p-3">Ludovic, Jessica</div>
+                </div>              
+                <div class="container">
+                  <div class="row">
+                    <div class="col-9 p-3">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-1 p-3">
+                            <span class="badge bg-secondary">L</span>
+                          </div>
+                          <div class="col-8 p-3 border rounded-5">
+                            <span>Message from Ludovic</span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-12 border p-3">
-                        <div class="contain">send-message-component works!</div>
+                  <div class="row">
+                    <div class="col-9 p-3">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-1 p-3">
+                            <span class="badge bg-secondary">L</span>
+                          </div>
+                          <div class="col-8 p-3 border rounded-5">
+                            <span>Message from Ludovic</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="container">
+                  <div class="row">
+                    <div class="col-3 p-3"></div>
+                    <div class="col-9 p-3">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-1 p-3">
+                            <span class="badge bg-secondary">L</span>
+                          </div>
+                          <div class="col-8 p-3 border rounded-5">
+                            <span>Message from Claire</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-10 p-3">
+                    <input type="input" class="form-control" placeholder="Type a message" />
+                  </div>
+                  <div class="col-2 p-3">
+                    <div class="float-end">
+                      <button class="btn btn-primary">Send</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 border p-3">
-            <div class="contain">contact-list-component works!</div>
-            <div class="col-10 border p-3">
-              <div class="contain">contact-component works!</div>
-            </div>
-            <div class="col-10 border p-3">
-              <div class="contain">contact-component works!</div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3>Contact List</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 border p-3">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-3 p-3">
+                        <input class="form-check-input" type="checkbox" value="" checked />
+                      </div>
+                      <div class="col-9 p-3">Aurelie</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="col-12 border p-3">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-3 p-3">
+                        <input class="form-check-input" type="checkbox" value="" checked />
+                      </div>
+                      <div class="col-9 p-3">Aurelie</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-9"></div>
+                <div class="col-3 p-3">
+                  <div class="float-end">
+                    <button class="btn btn-primary">Start Message</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
